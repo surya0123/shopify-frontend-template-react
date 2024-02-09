@@ -38,7 +38,7 @@ if (host === "localhost") {
     protocol: "wss",
     host: host,
     port: process.env.FRONTEND_PORT,
-    clientPort: 443,
+    clientPort:8080,
   };
 }
 
